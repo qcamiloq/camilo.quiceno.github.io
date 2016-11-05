@@ -53,13 +53,13 @@ position:relative;
     background-image: url("https://github.com/qcamiloq/qcamiloq.github.io/blob/master/Images/portada.jpg?raw=true");
 
     /* Set a specific height */
-    min-height: 600px;
+    min-height: 900px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .image-margin {
