@@ -1,0 +1,108 @@
+.navbar-custom {
+	background-color:#212121;
+    color:#ffffff;
+  	border-radius:0;
+}
+  
+.navbar-custom .navbar-nav > li > a {
+  	color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #9E9E9E;
+	background-color:transparent;
+}
+      
+.navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #424242;
+
+}
+      
+.navbar-custom .navbar-brand {
+  	color:#eeeeee;
+}
+.navbar-custom .navbar-toggle {
+  	background-color:#9E9E9E;
+}
+.navbar-custom .icon-bar {
+  	background-color:#212121;
+}
+
+.navbar-collapse {
+  text-align:center;
+}
+.navbar-nav {
+    display:inline-block;
+    float:none;
+}
+
+.container-portada {
+width:auto;
+margin: 0 auto;
+position:relative;
+}
+
+.portada {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.image-margin {
+	margin-top: 65px;
+}
+
+.aboutme-margin {
+	margin:20px 0px 20px 0px;
+	
+}
+
+.table-margin{
+	margin:30px 65px 20px 65px;
+	font-size: 110%;
+}
+
+.carousel-size{
+	width: 1200px;
+	height: 600px;
+	
+}
+
+.text-align-to-center {
+	text-align: center;
+}
+
+.text-align-to-justify {
+	text-align: justify;
+}
+
+html {
+	font-family: Helvetica;
+}
+
+
+.backgroud-gray-200 {
+	background-color: #EEEEEE;
+}
+
+.backgroud-gray-700 {
+	background-color: #616161;
+}
+
+.list-group li:nth-child(1){
+  border-top: 0 none;
+}
+
+.center-justified {
+  text-align: justify;
+  margin: 0 auto;
+  width: 30em;
+}
+
+th {
+    background-color: #BDBDBD;
+    color: black;
+} 
+
+footer{
+	background-color: #212121;
+}
