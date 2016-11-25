@@ -71,7 +71,6 @@ position:relative;
 }
 .parallax {
     background-image: url("../Images/portada.jpg");
-    height: 550px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
