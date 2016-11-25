@@ -319,37 +319,5 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
-	<script>
-		$(document).ready(function(){
-			
-		    $('a[href^="#"]').on('click',function (e) {
-		        e.preventDefault();
-		        var target = this.hash;
-		        
-		        $target = $(target);
-		        $('html, body').stop().animate({
-		            'scrollTop':  $target.offset().top - 50//no need of parseInt here
-		        }, 1000, 'swing', function () {
-		            window.location.hash = target ;
-		        });
-		    });
-		});	
-	</script>
-
-	<script type="text/javascript">
-		$('.navbar li').click(function(e) {
-		    $('.navbar li.active').removeClass('active');
-		    var $this = $(this);
-		    if (!$this.hasClass('active')) {
-		        $this.addClass('active');
-		    }
-	    	e.preventDefault();
-		});
-	</script>
-	<script type="text/javascript">
-		var h = $(document).height();
-		//your div, for example with class 'loremIpsum', will get exactly that sizes with:
-		$('div.parallax').width(w).height(h);
-	</script>
 </body>
 </html>
