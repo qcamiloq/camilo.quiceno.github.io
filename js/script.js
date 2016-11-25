@@ -18,25 +18,39 @@ $(window).resize(function(){
 });
 
 $(document).ready(function(){
-			
-		    $('a[href^="#"]').on('click',function (e) {
-		        e.preventDefault();
-		        var target = this.hash;
-		        
-		        $target = $(target);
-		        $('html, body').stop().animate({
-		            'scrollTop':  $target.offset().top - 50//no need of parseInt here
-		        }, 1000, 'swing', function () {
-		            window.location.hash = target ;
-		        });
-		    });
+	$('a[href^="#"]').on('click',function (e) {
+		 e.preventDefault();
+		 var target = this.hash;
+		 $target = $(target);
+		 $('html, body').stop().animate({
+		    'scrollTop':  $target.offset().top - 50//no need of parseInt here
+		 }, 1000, 'swing', function () {
+		    window.location.hash = target ;
+		 });
+	});
 });	
 
 $('.navbar li').click(function(e) {
-		    $('.navbar li.active').removeClass('active');
-		    var $this = $(this);
-		    if (!$this.hasClass('active')) {
-		        $this.addClass('active');
-		    }
-	    	e.preventDefault();
-		});
+	$('.navbar li.active').removeClass('active');
+	var $this = $(this);
+	if (!$this.hasClass('active')) {
+		$this.addClass('active');
+	}
+	e.preventDefault();
+});
+
+$('.progressBarValue').mouseover(function(){
+	$(this).css('background','#00838F');
+})
+
+$('.progressBarValue').mouseout(function(){
+	$(this).css('background','#616365');
+})
+
+$('th').mouseover(function(){
+	$('th').css('background','#00838F');
+})
+
+$('th').mouseout(function(){
+	$('th').css('background','#BDBDBD');
+})

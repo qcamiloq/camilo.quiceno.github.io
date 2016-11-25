@@ -1,3 +1,35 @@
+.professional-color{
+  color: #00838F;
+}
+
+.button {
+    
+    border: none;
+    color:  #EEEEEE;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Pacifico';
+}
+
+.button2 {
+    background-color:  #EEEEEE; 
+    color: black; 
+    color: #00838F;
+    border: 2px solid #00838F;
+}
+
+.button2:hover {
+    background-color: #00838F;
+    color: #EEEEEE;
+}
+
 
 .navbar-custom {
 	background-color:#212121;
@@ -127,8 +159,8 @@ position:relative;
 .progressBarValue {
   height: 1.66em;
   float: left;
-  background: #616161;
-  background: rgba(97,97,97,.75);
+  background: #616365;
+  background: #616365;
 }
 
 .value-00 { width: 0; }
@@ -196,11 +228,6 @@ margin: auto;
 .text-align-to-justify {
 	text-align: justify;
 }
-
-html {
-	font-family: Helvetica;
-}
-
 
 .backgroud-gray-200 {
 	background-color: #EEEEEE;
